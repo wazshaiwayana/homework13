@@ -6,6 +6,7 @@ var burger = {
 			callback(res);
 		});
 	},
+	
 	insertOne: function(burgerName, callback) {
 		orm.insertOne("burgers", "burger_name", burgerName, function(res) {
 			callback(res);

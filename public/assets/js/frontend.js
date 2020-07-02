@@ -9,7 +9,7 @@ $(".devour-burger-form").on("submit", function(){
     $.ajax({
 
     method : "PUT",
-    Url : "/burgers/" + burgerId,
+    url : "/burgers/" + burgerId,
 
 
     }).then(function(data){
